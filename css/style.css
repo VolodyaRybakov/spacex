@@ -108,8 +108,8 @@ body {
 }
 
 .features-text {
-    max-width: 490px;
-    width: 90%;
+    /* max-width: 490px; */
+    max-width: 90%;
 }
 
 .rocket {
