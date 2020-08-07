@@ -11,4 +11,7 @@ window.addEventListener("resize", () => {
         rellax.destroy();
     }
 })
+if (document.body.clientWidth < 576) {
+    rellax.destroy();
+}
 AOS.init()
